@@ -42,3 +42,21 @@ nav {
     border-radius: 6px;
     margin-left: 5px;
 }
+.content {
+    background-image: url(../../image/blood1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 10vh);
+    padding: 50px 0;
+}
+
+.site-logo {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.site-logo img {
+    width: 300px;
+    border-radius: 10px;
+}

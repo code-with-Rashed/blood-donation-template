@@ -1,0 +1,80 @@
+.content {
+    background-image: url(../../image/blood1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 10vh);
+    padding: 50px 0;
+}
+
+.site-logo {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.site-logo img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.blood-form {
+    background-color: #eee;
+    padding: 50px 40px;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group {
+    flex-basis: 46%;
+}
+
+.blood-form form label {
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: red;
+}
+
+.form-group select {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 12px 12px;
+    border-radius: 4px;
+    border-color: red;
+    outline-color: red;
+    color: rgba(255, 0, 0, 0.766);
+}
+.search-btn{
+    display: block;
+    width:100px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 25px auto 0 auto;
+    background:red;
+    color: #fff;
+    border:0;
+    padding: 8px 12px;
+    text-align: center;
+    border-radius: 6px;
+}
+@media only screen and (max-width:900px){
+    .form-control{
+        flex-direction: column;
+    }   
+    .form-group{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .search-btn{
+        margin:0 auto;
+    }
+}

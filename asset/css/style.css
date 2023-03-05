@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-title {
+    color: #800000;
+    font-weight: bolder;
+}
+
+.login-btn {
+    background: #800000;
+    color: #fff;
+    padding: 8px 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.register-btn {
+    background: #800000;
+    color: #fff;
+    padding: 8px 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 5px;
+}

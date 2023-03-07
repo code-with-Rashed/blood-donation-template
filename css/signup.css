@@ -33,3 +33,8 @@
     text-align: center;
     border:1px solid red;
 }
+@media only screen and (max-width:900px){
+    .signup-form {
+        width:90%;
+    }
+}

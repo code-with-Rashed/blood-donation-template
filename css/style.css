@@ -17,6 +17,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid #dee2e6;
 }
 
 .site-title {
@@ -42,14 +43,6 @@ nav {
     border-radius: 6px;
     margin-left: 5px;
 }
-.content {
-    background-image: url(../../image/blood1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 10vh);
-    padding: 50px 0;
-}
 
 .site-logo {
     text-align: center;
@@ -59,4 +52,19 @@ nav {
 .site-logo img {
     width: 300px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width:1000px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .login-btn,
+    .register-btn {
+        display: block;
+        margin: 10px auto;
+    }
+    .site-logo img{
+        width:200px;
+    }
 }

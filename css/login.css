@@ -33,3 +33,8 @@ margin: 3px 0 20px 0;
     text-align: center;
     border:1px solid red;
 }
+@media only screen and (max-width:900px){
+    .login-form {
+        width:90%;
+    }
+}

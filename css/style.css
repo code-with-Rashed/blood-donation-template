@@ -17,6 +17,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom:4px;
     border-bottom: 1px solid #dee2e6;
 }
 

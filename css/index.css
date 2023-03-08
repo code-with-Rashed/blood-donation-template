@@ -48,6 +48,9 @@
     border-radius: 6px;
 }
 @media only screen and (max-width:900px){
+    .blood-form{
+        width:90%;
+    }
     .form-control{
         flex-direction: column;
     }   
